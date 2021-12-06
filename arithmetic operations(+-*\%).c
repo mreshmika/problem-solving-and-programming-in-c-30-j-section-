@@ -14,11 +14,11 @@ int main(){
       {
           f=b-a;
 }
-printf("the difference between %f and %f is %f",a,b,f);
+printf("\nthe difference between %f and %f is %f",a,b,f);
 g=a*b;
-printf("the multiplication of %f and %f is %f",a,b,g);
+printf("\nthe multiplication of %f and %f is %f",a,b,g);
 h=a/b;
-printf("division of %f by %f is %f",a,b,h);
+printf("\ndivision of %f by %f is %f",a,b,h);
 i=c%d;
-printf("the remainder when %d is divided by %d is %d",c,d,i);
+printf("\nthe remainder when %d is divided by %d is %d",c,d,i);
 }
