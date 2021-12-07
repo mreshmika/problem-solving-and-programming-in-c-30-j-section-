@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float sf,sm,sc;
+    printf("enter the area in square feets:");
+    scanf("%f",&sf);
+    sm=(0.0929*sf);sc=sm*10000;
+    printf("\narea in square meters is %f",sm);
+    printf("\nthe area in square centimeters is %f",sc);
+    return 0;
+}
