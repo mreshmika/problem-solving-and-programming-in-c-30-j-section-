@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,e,t,m,p;
+printf("enter your subject 1 marks:");
+scanf("%f",&a);
+printf("enter your subject 2 marks:");
+scanf("%f",&b);
+printf("enter your subject 3 marks:");
+scanf("%f",&c);
+printf("enter your subject 4 marks:");
+scanf("%f",&d);
+printf("enter your subject 5 marks:");
+scanf("%f",&e);
+t=a+b+c+d+e;
+m=(t/500)*100;
+printf("the total marks are %.2f",t);
+printf("\nthe average marks are %.2f",m);
+printf("\nthe total percentage is %.2f",m);
+return 0;
+}
