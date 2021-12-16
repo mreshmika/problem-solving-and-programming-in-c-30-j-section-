@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+float n,b,d,h,p,l;
+printf("enter BASIC salary ");
+scanf("%f&",&b);
+printf("enter DA:");
+scanf("%f",&d);
+printf("enter HRA:");
+scanf("%f",&h);
+printf("enter PF:");
+scanf("%f",&p);
+printf("enter LIC:");
+scanf("%f",&l);
+n = b+d+h-p-l;
+printf("the net salary is %.2f",n);
+return 0;
+}
